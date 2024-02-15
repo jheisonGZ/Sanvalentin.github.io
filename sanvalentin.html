@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Invitación a San Valentín codificada">
+    <link rel="stylesheet" href="styles.css">
+    <title>Invitación </title>
+</head>
+<body>
+    <div class="container">
+        <!-- Contenedor de GIFs -->
+        <div id="gifContainer">
+            <img id="gifContainerImg" src="mocha.gif" alt="Ositos Iniciales">
+        </div>
+        <!-- Secciones de GIFs felices -->
+        <div id="happyGifContainer" style="display: none;">
+            <img src="mocha5final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <div id="happyGifContainer2" style="display: none;">
+            <img src="mocha6final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <div id="happyGifContainer3" style="display: none;">
+            <img src="mocha7final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <div id="happyGifContainer4" style="display: none;">
+            <img src="mocha9final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <!-- Secciones de GIFs tristes -->
+        <div id="sadGifContainer" style="display: none;">
+            <img src="mocha2.gif" alt="Osito Triste" style="width: 80%; height: 80%;">
+        </div>
+        <div id="sadGifContainer1" style="display: none;">
+            <img src="mocha3.gif" alt="Osito Triste" style="width: 80%; height: 80%;">
+        </div>
+        <div id="sadGifContainer2" style="display: none;">
+            <img src="mocha4.gif" alt="Osito Triste" style="width: 80%; height: 80%;">
+        </div>
+        
+        <!-- Pregunta principal -->
+        <h1 id="question">¿Quieres salir con migo?</h1>
+        <!-- Contenedor de mensaje (puede agregarse contenido dinámicamente con JavaScript) -->
+        <div id="messageContainer" style="display: none;"></div>
+
+        <!-- Botones con texto más descriptivo -->
+        <button id="siBtn">Sí, quiero</button>
+        <button id="noBtn">No, gracias</button>
+    </div>
+
+    <!-- Información sobre el creador -->
+    <div class='made-with-love'>
+        HECHO POR: JHEISON G
+       
+    </div>
+
+    <!-- MailerLite Universal -->
+    <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '736768');
+    </script>
+    <!-- Fin de MailerLite Universal -->
+
+    <!-- Archivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
